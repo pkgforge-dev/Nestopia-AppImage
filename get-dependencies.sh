@@ -6,7 +6,8 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm fceux
+pacman -Syu --noconfirm fceux \
+    x265
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
