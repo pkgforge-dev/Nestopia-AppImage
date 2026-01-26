@@ -14,10 +14,10 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/nestopia
-cp /usr/share/nestopia/NstDatabase.xml ./AppDir/bin
-cp -r /usr/share/nestopia/palettes ./AppDir/bin
-cp -r /usr/share/nestopia/shaders ./AppDir/bin
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
+#cp /usr/share/nestopia/NstDatabase.xml ./AppDir/bin
+#cp -r /usr/share/nestopia/palettes ./AppDir/bin
+#cp -r /usr/share/nestopia/shaders ./AppDir/bin
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/share/nestopia' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
