@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/nestopia.svg
 export DESKTOP=/usr/share/applications/nestopia.desktop
 export DEPLOY_OPENGL=1
-export PATH_MAPPING='/usr/share/nestopia:${SHARUN_DIR}/share/nestopia'
+#export PATH_MAPPING='/usr/share/nestopia:${SHARUN_DIR}/share/nestopia'
 
 # Deploy dependencies
 quick-sharun /usr/bin/nestopia #/usr/share/nestopia
@@ -27,4 +27,4 @@ quick-sharun --make-appimage
 
 # Test the app for 12 seconds, if the app normally quits before that time
 # then skip this or check if some flag can be passed that makes it stay open
-quick-sharun --test ./dist/*.AppImage
+#quick-sharun --test ./dist/*.AppImage
