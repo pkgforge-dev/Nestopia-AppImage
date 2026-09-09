@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Nestopia-AppImage)](https://github.com/pkgforge-dev/Nestopia-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/0ldsk00l/nestopia/blob/master/icons/svg/nestopia.svg" width="128" />
+  <img src="https://gitlab.com/jgemu/nestopia/-/raw/master/icons/nestopia256.png?ref_type=heads" width="128" />
 </p>
 
 
